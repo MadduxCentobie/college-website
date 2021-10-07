@@ -1,0 +1,52 @@
+* {
+	font-family: 'Nunito Sans', cursive;
+}
+h1 {
+	font-size: 48px;
+	margin:  0;
+	background-color: #D3313E;
+	padding: 10px;
+	text-align: center;
+}
+h2 {
+	font-size: 30px;
+	background-color: #025392;
+	padding: 10px;
+}
+h3 {
+	font-size: 25px;
+	padding: 10px;
+}	
+body {
+	background-color: #322828;
+	color: white;
+	text-align: center;
+	margin: 0;
+	padding:  0;
+}
+.header {
+	background-image: url(group.png);
+	display: flex;
+	justify-content: space-between;
+}
+
+.header .img-wrap {
+	width:  30%;
+}
+.header .text-wrap {
+	width:  70%;
+}
+.bottom {
+	background-image:  url(Bottom.png);
+	padding:  100px;
+}
+.middle {
+	text-align: left;
+	background-color:  #322828;
+	display: flex;
+	justify-content: space-between;
+}
+
+.middle .img-wrap, .middle .text-wrap {
+	width:  50%;
+}
